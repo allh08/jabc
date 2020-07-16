@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import { Route } from 'react-router-dom';
-import { SecureRoute, ImplicitCallback } from '@okta/okta-react';
+
 import {
   CssBaseline,
   withStyles,
@@ -8,7 +8,8 @@ import {
 
 import AppHeader from './components/AppHeader';
 import Home from './pages/Home';
-import PostsManager from './pages/PostsManager';
+import StartPage from  './pages/career/StartPage';
+import DragAndDropPage from  './pages/career/DragAndDropPage';
 
 const styles = theme => ({
   main: {
@@ -19,14 +20,26 @@ const styles = theme => ({
   },
 });
 
+const careerRoutes = (
+  <Route
+    path="/career"
+    render={({ match: { url } }) => (
+      <>
+        <Route path={`${url}/`} component={StartPage} exact />
+        <Route path={`${url}/start`} component={StartPage} />
+        <Route path={`${url}/dragdrop`} component={DragAndDropPage} />
+      </>
+    )}
+  />
+)
+
 const App = ({ classes }) => (
   <Fragment>
     <CssBaseline />
     <AppHeader />
     <main className={classes.main}>
       <Route exact path="/" component={Home} />
-      <SecureRoute path="/posts" component={PostsManager} />
-      <Route path="/implicit/callback" component={ImplicitCallback} />
+      {careerRoutes}
     </main>
   </Fragment>
 );

@@ -1,33 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+
 import {
   AppBar,
-  Button,
-  Toolbar,
-  Typography,
-  withStyles,
+  Toolbar
 } from '@material-ui/core';
 
-import LoginButton from './LoginButton';
-
-const styles = {
-  flex: {
-    flex: 1,
-  },
-};
-
-const AppHeader = ({ classes }) => (
-  <AppBar position="static">
+const AppHeader = () => (
+  <AppBar position="static" color="white">
     <Toolbar>
-      <Typography variant="h6" color="inherit">
-        My React App
-      </Typography>
-      <Button color="inherit" component={Link} to="/">Home</Button>
-      <Button color="inherit" component={Link} to="/posts">Posts Manager</Button>
-      <div className={classes.flex} />
-      <LoginButton />
+      <Link to='/' style={{ textDecoration: 'none' }}>
+        <img src="https://businesslaureatesbc.org/wp-content/uploads/2016/10/JA-British-Columbia_Primary_Preferred_Opt2_600.png" alt="logo" className='icon' style={{'height':'5em', 'margin':'2em'}} />
+      </Link>
     </Toolbar>
   </AppBar>
 );
 
-export default withStyles(styles)(AppHeader);
+export default AppHeader;
