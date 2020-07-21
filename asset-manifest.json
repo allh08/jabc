@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/jabc/static/js/main.2225ee98.chunk.js",
-    "main.js.map": "/jabc/static/js/main.2225ee98.chunk.js.map",
+    "main.js": "/jabc/static/js/main.2a03365d.chunk.js",
+    "main.js.map": "/jabc/static/js/main.2a03365d.chunk.js.map",
     "runtime-main.js": "/jabc/static/js/runtime-main.e88a97de.js",
     "runtime-main.js.map": "/jabc/static/js/runtime-main.e88a97de.js.map",
-    "static/js/2.56def0c1.chunk.js": "/jabc/static/js/2.56def0c1.chunk.js",
-    "static/js/2.56def0c1.chunk.js.map": "/jabc/static/js/2.56def0c1.chunk.js.map",
+    "static/js/2.d224c244.chunk.js": "/jabc/static/js/2.d224c244.chunk.js",
+    "static/js/2.d224c244.chunk.js.map": "/jabc/static/js/2.d224c244.chunk.js.map",
     "index.html": "/jabc/index.html",
-    "precache-manifest.b3c8ba211c34ce520d49fe9a0851aff1.js": "/jabc/precache-manifest.b3c8ba211c34ce520d49fe9a0851aff1.js",
+    "precache-manifest.580b8f211dcce57c4cafcab2556f220e.js": "/jabc/precache-manifest.580b8f211dcce57c4cafcab2556f220e.js",
     "service-worker.js": "/jabc/service-worker.js",
-    "static/js/2.56def0c1.chunk.js.LICENSE.txt": "/jabc/static/js/2.56def0c1.chunk.js.LICENSE.txt"
+    "static/js/2.d224c244.chunk.js.LICENSE.txt": "/jabc/static/js/2.d224c244.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e88a97de.js",
-    "static/js/2.56def0c1.chunk.js",
-    "static/js/main.2225ee98.chunk.js"
+    "static/js/2.d224c244.chunk.js",
+    "static/js/main.2a03365d.chunk.js"
   ]
 }
