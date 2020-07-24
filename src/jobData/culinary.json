@@ -1,0 +1,47 @@
+{
+  "name": "Culinary",
+  "description": "Culinary arts, in which culinary mean \"related to cooking\", are the cuisine arts of food preparation, cooking, and presentation of food, usually in the form of meals",
+  "link": "/jabc/culinary.png",
+  "occupations": [
+    {
+      "title": "Buchers/Meat Cutters",
+      "degree": "None",
+      "workBCLink": "https://www.workbc.ca/CareerCompass/6331",
+      "medianWage": 20,
+      "employeedWorkers": 2200,
+      "growthRate": 0.8
+    },
+    {
+      "title": "Baker",
+      "degree": "Diploma",
+      "workBCLink": "https://www.workbc.ca/CareerCompass/6332",
+      "medianWage": 20,
+      "employeedWorkers": 6400,
+      "growthRate": 0.9
+    },
+    {
+      "title": "Cook Helper",
+      "degree": "None",
+      "workBCLink": "https://www.workbc.ca/CareerCompass/6322",
+      "medianWage": 17,
+      "employeedWorkers": 31800,
+      "growthRate": 1.5
+    },
+    {
+      "title": "Restaurant Chef",
+      "degree": "Diploma",
+      "workBCLink": "https://www.workbc.ca/CareerCompass/6321",
+      "medianWage": 25,
+      "employeedWorkers": 12600,
+      "growthRate": 1.5
+    },
+    {
+      "title": "Waiter/Waitress",
+      "degree": "None",
+      "workBCLink": "https://www.workbc.ca/CareerCompass/6513",
+      "medianWage": 15,
+      "employeedWorkers": 35400,
+      "growthRate": 1.6
+    }
+  ]
+}

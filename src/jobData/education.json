@@ -1,0 +1,47 @@
+{
+  "name": "Education",
+  "description": "Education is the process of facilitating learning, or the acquisition of knowledge, skills, values, beliefs, and habits. Educational methods include teaching, training, storytelling, discussion and directed research",
+  "link": "/jabc/education.jpg",
+  "occupations": [
+    {
+      "title": "Educational Counsellors",
+      "degree": "Degree",
+      "workBCLink": "https://www.workbc.ca/CareerCompass/4033",
+      "medianWage": 34,
+      "employeedWorkers": 3400,
+      "growthRate": 0.8
+    },
+    {
+      "title": "University Professors and Lecturers",
+      "degree": "Degree",
+      "workBCLink": "https://www.workbc.ca/CareerCompass/4011",
+      "medianWage": 42,
+      "employeedWorkers": 9900,
+      "growthRate": 0.5
+    },
+    {
+      "title": "Early Childhood Educators",
+      "degree": "Diploma, Certificate",
+      "workBCLink": "https://www.workbc.ca/CareerCompass/4214",
+      "medianWage": 18,
+      "employeedWorkers": 22300,
+      "growthRate": 1.5
+    },
+    {
+      "title": "Elementary School Teachers",
+      "degree": "Degree",
+      "workBCLink": "https://www.workbc.ca/CareerCompass/4032",
+      "medianWage": 36,
+      "employeedWorkers": 30000,
+      "growthRate": 0.8
+    },
+    {
+      "title": "Secondary School Teachers",
+      "degree": "Degree",
+      "workBCLink": "https://www.workbc.ca/CareerCompass/4031",
+      "medianWage": 38,
+      "employeedWorkers": 18000,
+      "growthRate": 0.9
+    }
+  ]
+}

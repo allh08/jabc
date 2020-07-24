@@ -1,0 +1,39 @@
+{
+  "name": "Engineering",
+  "description": "Engineering is the use of scientific principles to design and build machines, structures, and other items, including bridges, tunnels, roads, vehicles, and buildings",
+  "link": "/jabc/engineering.jpg",
+  "occupations": [
+    {
+      "title": "Civil Engineers",
+      "degree": "Degree",
+      "workBCLink": "https://www.workbc.ca/CareerCompass/2131",
+      "medianWage": 44,
+      "employeedWorkers": 7600,
+      "growthRate": 1.3
+    },
+    {
+      "title": "Electrical and electronics Engineers",
+      "degree": "Diploma",
+      "workBCLink": "https://www.workbc.ca/CareerCompass/2133",
+      "medianWage": 38,
+      "employeedWorkers": 5300,
+      "growthRate": 1.1
+    },
+    {
+      "title": "Mechanical Engineers",
+      "degree": "Diploma",
+      "workBCLink": "https://www.workbc.ca/CareerCompass/2132",
+      "medianWage": 36,
+      "employeedWorkers": 5200,
+      "growthRate": 1.1
+    },
+    {
+      "title": "Software Engineers and Desginers",
+      "degree": "Diploma",
+      "workBCLink": "https://www.workbc.ca/CareerCompass/2173",
+      "medianWage": 43,
+      "employeedWorkers": 9100,
+      "growthRate": 1.7
+    }
+  ]
+}
