@@ -16,7 +16,7 @@
     "classnames": "^2.2.6",
     "dom-to-image": "^2.6.0",
     "html2canvas": "^1.0.0-rc.5",
-    "jspdf": "^1.5.3",
+    "jspdf": "^2.5.1",
     "react": "^16.13.1",
     "react-beautiful-dnd": "^13.0.0",
     "react-chat-bubble": "^0.8.7",
